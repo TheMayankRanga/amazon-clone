@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Roboto", sans-serif;
+}
+nav .nav1{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 20px;
+    background-color: #131921;
+    color: white;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav img{
+    height: 2.5rem;
+}
+.search-bar .first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6E6E6;
+    color: gray;
+    padding: 15px;
+    font-size: 10px;
+    gap: 8px;
+}
+.search-bar{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #232F3E;
+    color: white;
+    font-weight: 500;
+}
+main{
+    min-height: 200vh;
+    width: 100%;
+    background-image: url(./items/hero.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #E3E6E6;
+    padding: 2rem;
+}
+main .first{
+    margin-top: 13rem;
+    background-color: #F5F6F6;
+    text-align: center;
+    padding: 10px;
+}
+main .second{
+    margin: 2rem 0 ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+main .second .card{
+    width: 24%;
+    height: 28rem;
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+main .second .card .photos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+main .second .card .photos img{
+    width: 48%;
+    margin-bottom: 2rem;
+}
+main .second .card .last{
+    color: #163B5A;
+}
+footer .first{
+    background-color: #37475A;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+footer .second{
+    background-color: #232F3E;
+    padding: 5rem 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+footer .second div{
+    color: white;
+}
+footer .second div h3{
+    margin-bottom: 10px;
+}
+footer .second div ul li{
+    list-style: none;
+    color: #DDDDDD;
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
